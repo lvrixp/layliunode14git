@@ -48,7 +48,7 @@ jobs:
 
     - name: 'Deploy to Azure Web App'
       id: deploy-to-webapp
-      uses: LaylaLiu-gmail/webapps-deploy@v2
+      uses: LaylaLiu-gmail/webapps-deploy@v3
       with:
         app-name: 'layliunode14git'
         slot-name: 'staging'
